@@ -1,0 +1,84 @@
+#inscription input:focus, textarea:focus {
+background: #d9dadc;
+}
+
+#inscription input[type=submit]:hover {
+border: 1px solid #1a3957;
+background-color:#51A8FF ;
+}
+
+#inscription input[type=submit]:active {
+background-color: #0079F2 ;
+}
+
+#inscription input[type=submit] {
+/* position taille marges */
+float: right; 
+cursor: pointer;
+width: 160px;
+height: 42px; 
+padding: 5px 10px; 
+margin: 0 40px 0 0;
+/* coins arrondies */
+border: 1px solid #275682;
+border-radius: 21px;
+/* fond */
+background-color: #0080FF;
+/* styles de texte */
+color:#effaff;
+font-weight:bold;
+}
+
+#inscription textarea {
+/* styles de caractères */
+font-size: 14px;
+color: #4b4b4b;
+font-family:Verdana, Geneva, Sans-serif;
+/* marge taille et ombre portée */
+width: 270px;
+height: 80px;
+padding: 10px 10px 0px 10px;
+margin: 0 0 20px 0;
+/* couleur de fond */
+background: #f1f2f4;
+/* bordures */
+border:1px solid #b6b7b9;
+border-radius: 5px;
+}
+
+#inscription label {
+/* positionnement marge et taille */
+float: left; 
+clear: left;
+margin: 10px 20px 0 0;
+width: 150px;
+/* styles de caractères */
+font:Verdana, Geneva, sans-serif;
+font-size: 14px;
+color: #FFFFFF;
+text-align: right; 
+}
+#inscription #mdpbox {
+float : none;
+}
+
+#inscription input {
+/* styles de caractères */
+font:Verdana, Geneva, sans-serif;
+font-size: 14px; 
+color: #4b4b4b; 
+/* marge et taille */
+width: 270px; 
+height: 35px; 
+padding: 5px 10px 0px 10px; 
+margin: 0 0 20px 0;
+/* couleur de fond */
+background: #f1f2f4;
+/* bordures */
+border:1px solid #b6b7b9;
+border-radius: 5px;
+}
+
+#mailexist{
+color : red;
+}
